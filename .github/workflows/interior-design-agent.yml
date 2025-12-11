@@ -40,5 +40,5 @@ jobs:
 
       - name: Run interior design agent initializer
         run: |
-          cd app/
+          cd src/app/
           python app/agents/interiorDesignAgent_initializer.py
